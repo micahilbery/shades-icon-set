@@ -1,6 +1,6 @@
 ![shades-logotype](assets/shades-logotype.svg)
 
-A shady little icon set. ![shades-logotype](assets/shades-logo-sm.svg)
+A shady little icon set ![shades-logotype](assets/shades-logo-sm.svg)
 
 Shades is an 16px pixel-fitted icon set that uses different levels (shades) of transparency for the colors. This set was primarily made for the use on the web but the SVGs are in here and I'm not your dad so do whatever I guess. Along with the SVGs there is a Jekyll include file for easy use on GitHub Pages or wherever you do your Jekyll, an SVG sprite sheet, and an accompanying css file.
 
