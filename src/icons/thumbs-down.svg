@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   id="svg6"
+   version="1.1"
+   viewBox="0 0 16 16">
+  <metadata
+     id="metadata12">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs10" />
+  <path
+     id="rect842"
+     d="M 8,15 C 6.892,15 6,14.108 6,13 V 9.9082031 C 5.8427787,9.9638609 5.6767598,10 5.5,10 h -3 C 1.669,10 1,9.331 1,8.5 v -5 C 1,2.669 1.669,2 2.5,2 h 3 C 6.0358999,2 6.5004434,2.280702 6.765625,2.701172 7.2147186,2.268235 7.8240523,2 8.5,2 h 5 C 14.885,2 16,3.115 16,4.5 v 4 C 16,9.885 14.885,11 13.5,11 H 10 v 2 c 0,1.108 -0.892,2 -2,2 z M 7.974609,14 H 8.02539 C 8.5649636,14 9,13.516182 9,12.916016 V 10 h 4.5 C 14.331,10 15,9.331 15,8.5 v -4 C 15,3.669 14.331,3 13.5,3 h -5 C 7.669,3 7,3.669 7,4.5 V 7.0839844 8.5 12.916016 C 7,13.516182 7.4350364,14 7.974609,14 Z M 2.5,9 h 3 C 5.777,9 6,8.777 6,8.5 V 7 H 2 V 8.5 C 2,8.777 2.223,9 2.5,9 Z m 1,-4 C 3.223,5 3,4.777 3,4.5 3,4.223 3.223,4 3.5,4 3.777,4 4,4.223 4,4.5 4,4.777 3.777,5 3.5,5 Z M 2,6 H 6 V 3.5 C 6,3.223 5.777,3 5.5,3 h -3 C 2.223,3 2,3.223 2,3.5 Z"
+     style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0.5;stroke-opacity:1" />
+  <path
+     id="rect844"
+     d="M 7.9746094,14 C 7.4350364,14 7,13.516182 7,12.916016 V 8.5 7.0839844 4.5 C 7,3.669 7.669,3 8.5,3 h 5 C 14.331,3 15,3.669 15,4.5 v 4 C 15,9.331 14.331,10 13.5,10 H 9 v 2.916016 C 9,13.516182 8.5649636,14 8.0253906,14 Z"
+     style="opacity:0.2;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0.5;stroke-opacity:1" />
+</svg>
