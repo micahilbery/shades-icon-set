@@ -1,0 +1,15 @@
+<svg id="shades-icon-{{ include.name }}" class="shades-icon {% if include.class %}{{include.class}}{% endif %}" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" height="16px" width="16px">
+    {% assign name = include.name %}
+    {% case name %}
+      {% when "icon-name" %}
+        <title>Icon Name</title>
+        <desc>A description of the icon.</desc>
+        <path id="path-0" d=""/>
+        <path id="path-1" d="" opacity=".2"/>
+      {% else %}
+        <title>SVG ERROR</title>
+        <desc>SVG ERROR: Icon name not found or undefined. Check Jekyll include declaration.</desc>
+        <path d="M2 2V9.832l2.54-3.176 1.985 2.975 2.924-3.89 2.053 2.052L14 5.295V2.002zm12 4.709l-2.498 2.5-1.95-1.95-3.077 4.104-2.016-3.017L2 11.424V14h12V8.123z" opacity=".2" fill="red"/>
+        <path d="M0 0v12.326l.893-1.115.107-.135 1-1.252V8.23L1 9.48V1h14v1.885l-1 1V2.002L2.025 2V9.832L3 8.613V3h10v3.32l1-1V5.3l1.855-1.855-.003-.004.148-.148V0zm7.959 4a2.997 2.997 0 00-2.998 2.998c0 .102.02.198.03.297l1.556 2.332.006.002L9.475 5.74l1.46 1.461c.005-.068.02-.133.02-.203A2.997 2.997 0 007.96 4zM16 4.71l-.85.85-.002-.001L14 6.707V6.734l-1 1V13h-1v-1c0-1.108-.892-2-2-2H7.523L6.5 11.363l-.885-1.324A1.993 1.993 0 004 12v1H3v-2.797l-.975 1.22V14H14V8.123l1-1V15H1v-.734l1-1.252V11.42l-1 1.25-.889 1.111L0 13.92V16h16zM9.578 7.26L7.557 9.953c.133.018.264.041.402.041a2.988 2.988 0 002.678-1.676z" fill="red"/>
+    {% endcase %}
+    </svg>
