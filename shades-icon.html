@@ -1,15 +1,782 @@
 <svg id="shades-icon-{{ include.name }}" class="shades-icon {% if include.class %}{{include.class}}{% endif %}" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" height="16px" width="16px">
-    {% assign name = include.name %}
-    {% case name %}
-      {% when "icon-name" %}
-        <title>Icon Name</title>
-        <desc>A description of the icon.</desc>
-        <path id="path-0" d=""/>
-        <path id="path-1" d="" opacity=".2"/>
-      {% else %}
-        <title>SVG ERROR</title>
-        <desc>SVG ERROR: Icon name not found or undefined. Check Jekyll include declaration.</desc>
-        <path d="M2 2V9.832l2.54-3.176 1.985 2.975 2.924-3.89 2.053 2.052L14 5.295V2.002zm12 4.709l-2.498 2.5-1.95-1.95-3.077 4.104-2.016-3.017L2 11.424V14h12V8.123z" opacity=".2" fill="red"/>
-        <path d="M0 0v12.326l.893-1.115.107-.135 1-1.252V8.23L1 9.48V1h14v1.885l-1 1V2.002L2.025 2V9.832L3 8.613V3h10v3.32l1-1V5.3l1.855-1.855-.003-.004.148-.148V0zm7.959 4a2.997 2.997 0 00-2.998 2.998c0 .102.02.198.03.297l1.556 2.332.006.002L9.475 5.74l1.46 1.461c.005-.068.02-.133.02-.203A2.997 2.997 0 007.96 4zM16 4.71l-.85.85-.002-.001L14 6.707V6.734l-1 1V13h-1v-1c0-1.108-.892-2-2-2H7.523L6.5 11.363l-.885-1.324A1.993 1.993 0 004 12v1H3v-2.797l-.975 1.22V14H14V8.123l1-1V15H1v-.734l1-1.252V11.42l-1 1.25-.889 1.111L0 13.92V16h16zM9.578 7.26L7.557 9.953c.133.018.264.041.402.041a2.988 2.988 0 002.678-1.676z" fill="red"/>
-    {% endcase %}
-    </svg>
+{% assign name = include.name %}
+{% case name %}
+  {% when "3d-printer" %}
+    <title>3D Printer</title>
+    <path d="M2 3v2h3V3zm11 0v10h1V3zM9 7v1h1V7zM2 9v4h3V9z" opacity=".5"/>
+    <path style="marker:none" d="M1.5 2c-.277 0-.5.223-.5.5V13H0v2h16v-2h-1V2.5c0-.277-.223-.5-.5-.5h-9zM2 3h3v2H2zm4 0h6v3H6zm7 0h1v10h-1zM2 6h3v2H2zm4 1h2v1c0 .554.446 1 1 1h1c.554 0 1-.446 1-1V7h1v4H6zm3 0h1v1H9zM2 9h3v4H2zm1.5 1a.5.5 0 100 1 .5.5 0 100-1zM6 12h6v1H6z"/>
+    <path style="marker:none" d="M6.002 2.502c0 .945.198 1.576.611 1.965.414.389.927.44 1.307.472.38.033.64.066.754.147.113.08.25.247.25.916h.998c0-.831-.23-1.419-.664-1.729-.435-.31-.905-.302-1.256-.332-.351-.03-.567-.08-.701-.207-.135-.126-.303-.427-.303-1.232zM9 9v.5a.5.5 0 101 0V9h-.5z" opacity=".4"/>
+    <path style="marker:none" d="M2 6h3v2H2z" opacity=".1"/>
+  {% when "airplane" %}
+    <title>Airplane</title>
+    <path d="M1.68 3.027l-.473.473 2.799 2.799L4 6.3l1.703 1.703 4.018-4.018c-2.475-.241-5.313-.525-8.041-.959zm10.338 3.248l-4.022 4.022L9.7 12l.002-.006 2.799 2.799.473-.473c-.317-2.535-.746-5.623-.955-8.045zM1 11v.295l.71.705.997-1H1.293zm4 2.281l-1 1.037.707.682H5v-.293z" opacity=".4"/>
+    <path d="M12.709 1l-.209.207-.5.5-.793.793.006.006-.707.707-.006-.006-.646.647-.133.132-4.018 4.018-.35.35a.502.502 0 01-.025.023L3.707 10l-.5.5-.5.5-.996 1L1 11.295l3.012 3.01L5 13.28l.494-.494.006.006.5-.5 1.646-1.647.35-.35 4.022-4.02.128-.13a.42.42 0 01.012-.011l.635-.635.5-.5h-.012l1-1h.012l.5-.5.207-.193V1h-2.291z" opacity=".2"/>
+    <path d="M12.484 0a.5.5 0 00-.091.012.5.5 0 00-.133.049l-.006.003a.5.5 0 00-.076.053l-.006.006a.513.513 0 00-.026.023L9.32 2.973l-7.758-.97a.5.5 0 00-.416.143l-1 1a.5.5 0 000 .708L4.293 8l-1.998 2H0V11.426a.5.5 0 00.146.428L.295 12 4 15.707l.146.147a.5.5 0 00.446.146H6v-2.293l2-2 4.146 4.147a.5.5 0 00.708 0l1-1a.5.5 0 00.142-.416l-.969-7.758 2.827-2.826A.5.5 0 0016 3.492V0h-3.5a.5.5 0 00-.016 0zm.225 1H15v2.307l-.207.193-.5.5h-.012l-1 1h.012l-.5.5-.635.635a.42.42 0 00-.012.011l-.128.13c.192 2.64.61 5.279.955 8.044l-.473.473-2.799-2.799L9.7 12l-1.703-1.703-.35.35L6 12.292l-.5.5-.006-.006-.494.494V15h-.293L1 11.295V11H2.707l.5-.5.5-.5 1.621-1.623a.502.502 0 00.026-.023l.35-.35L4 6.3l.006-.002L1.207 3.5l.473-.473c2.865.456 5.44.705 8.04.96l.134-.133.646-.647.006.006.707-.707-.006-.006.793-.793.5-.5.209-.207z"/>
+  {% when "alarm-clock" %}
+    <title>Alarm Clock</title>
+    <circle cx="8" cy="9" r="6" opacity=".2"/>
+    <path d="M3.98-.01a1 1 0 00-.687.303l-2 2a1 1 0 101.414 1.414l2-2A1 1 0 003.98-.01zm8.01 0a1 1 0 00-.697 1.717l2 2a1 1 0 101.414-1.414l-2-2a1 1 0 00-.717-.303zM8 2a7 7 0 00-7 7 7 7 0 001.984 4.873l-.9 1.35a.5.5 0 10.832.554l.82-1.232A7 7 0 008 16a7 7 0 004.262-1.457l.822 1.234a.5.5 0 10.832-.554l-.896-1.344A7 7 0 0015 9a7 7 0 00-7-7zm0 1a6 6 0 016 6 6 6 0 01-6 6 6 6 0 01-6-6 6 6 0 016-6zm2.5 3a.5.5 0 00-.383.176L7.771 9H5.5c-.676-.01-.676 1.01 0 1h2.48a.494.494 0 00.124-.01.5.5 0 00.32-.215l2.447-2.94A.5.5 0 0010.5 6z"/>
+  {% when "alert" %}
+    <title>Alert</title>
+    <path d="M5 1L1 5v6l4 4h6l4-4V5l-4-4H8z" opacity=".2"/>
+    <path d="M4.5 0L0 4.5v7L4.5 16h7l4.5-4.5v-7L11.5 0H8zM5 1h6l4 4v6l-4 4H5l-4-4V5l4-4zm2 1.992V9h2V7l.002-.008v-4h-2zM7 10v2h2v-.93a.999.999 0 0 0 0-.125V10z"/>
+  {% when "align-center" %}
+    <title>Align Center</title>
+    <path d="M2 2v1h12V2zm2 4v1h8V6zm-2 4v1h12v-1zm2 4v1h8v-1z" opacity=".2"/>
+    <path d="M1.5 1c-.277 0-.5.223-.5.5v2c0 .277.223.5.5.5h13c.277 0 .5-.223.5-.5v-2c0-.277-.223-.5-.5-.5zM2 2h12v1H2zm1.5 3c-.277 0-.5.223-.5.5v2c0 .277.223.5.5.5h9c.277 0 .5-.223.5-.5v-2c0-.277-.223-.5-.5-.5zM4 6h8v1H4zM1.5 9c-.277 0-.5.223-.5.5v2c0 .277.223.5.5.5h13c.277 0 .5-.223.5-.5v-2c0-.277-.223-.5-.5-.5zm.5 1h12v1H2zm1.5 3c-.277 0-.5.223-.5.5v2c0 .277.223.5.5.5h9c.277 0 .5-.223.5-.5v-2c0-.277-.223-.5-.5-.5zm.5 1h8v1H4z"/>
+  {% when "align-h-center" %}
+    <title>Align Horizontal Center</title>
+    <path d="M3.997 3V7h8V3zM2 10v3.997H14V10z" opacity=".2"/>
+    <path d="M7 0v3h2V0zM3.5 2.003a.499.499 0 00-.499.491v5a.5.5 0 00.499.502h2.496V6.995H3.999V3h2V2zm6.498 0V3h2.001V7H9.994V8h2.504a.499.499 0 00.503-.503v-5a.499.499 0 00-.503-.494zM7 3.998V8h2V3.998zm-5.502 5c-.277 0-.5.225-.499.502v4.998a.5.5 0 00.5.503h4.497v-1.002H2v-4H6V8.994zm8.5 0v1.001h4.001v4H9.998v1.002h4.5a.499.499 0 00.503-.503V9.5a.499.499 0 00-.503-.502zM7 8.998V13h2V8.994zm0 5.001V16h2v-2z"/>
+  {% when "align-h-left" %}
+    <title>Align Horizontal Left</title>
+    <path d="M3.003 4v3h7V4zm0 6.001v3.002h10.002V10z" opacity=".2"/>
+    <path d="M1.004 0v16h2v-2h10.5a.499.499 0 00.499-.498v-4a.499.499 0 00-.5-.502h-10.5v-.998h7.5A.499.499 0 0011 7.499V3.5a.499.499 0 00-.499-.499H3.003V0H1zm2 4h7v3h-7zm0 6.001h10v3.002h-10z"/>
+  {% when "align-h-left-to-anchor" %}
+    <title>Align Horizontal Left to Anchor</title>
+    <path d="M1.002 2H5v3H1z" opacity=".4"/>
+    <path d="M7 4v3h5V4zM7 10v3.002h8.006V10z" opacity=".2"/>
+    <path d="M5 0v1.002H.504A.499.499 0 000 1.5V5.5c0 .276.223.499.499.499h4.498V16H7v-2h8.501a.499.499 0 00.499-.498v-4A.499.499 0 0015.501 9h-8.5v-.998H12.5a.499.499 0 00.503-.503V3.5a.499.499 0 00-.503-.499H7V0H4.997zM1.003 2.003H5v2.998H1V2zM7 4h5V7H7zm0 6.002h8.006v3.002H7z"/>
+  {% when "align-h-right" %}
+    <title>Align Horizontal Right</title>
+    <path d="M5.996 4v3H13V4zM3 10v3.002H13V10z" opacity=".2"/>
+    <path style="marker:none" d="M15 0v16h-2.003v-2H2.5A.499.499 0 012 13.502v-4c0-.28.227-.502.499-.502H13v-.998H5.497a.499.499 0 01-.499-.503V3.5c0-.276.223-.499.5-.499H13V0zm-2.003 4H6v3h7zm0 6.001H3.003v3.002H13z"/>
+  {% when "align-h-right-to-anchor" %}
+    <title>Align Horizontal Right to Anchor</title>
+    <path d="M11 2.003h4.006v2.998h-4.007z" opacity=".4"/>
+    <path d="M4 4v3h5V4zM1.001 10v3.002h7.994V10z" opacity=".2"/>
+    <path d="M11 0v1.002H15.5c.276 0 .499.223.499.499V5.5a.499.499 0 01-.499.499h-4.498V16H9v-2H.499A.499.499 0 010 13.502v-4A.5.5 0 01.499 9h8.505v-.998H3.496a.499.499 0 01-.499-.503V3.5c0-.276.223-.499.5-.499h5.499V0zm4.006 2.003h-4.007v2.998h4.007zM9.004 4H3.999V7h5zm0 6.002H1.002v3.002h7.994z"/>
+  {% when "align-justify" %}
+    <title>Align Justify</title>
+    <path d="M2 2v1h12V2H2zm0 4v1h12V6H2zm0 4v1h12v-1H2zm0 4v1h12v-1H2z" opacity=".2"/>
+    <path d="M1.5 1c-.277 0-.5.223-.5.5v2c0 .277.223.5.5.5h13c.277 0 .5-.223.5-.5v-2c0-.277-.223-.5-.5-.5h-13zM2 2h12v1H2V2zm-.5 3c-.277 0-.5.223-.5.5v2c0 .277.223.5.5.5h13c.277 0 .5-.223.5-.5v-2c0-.277-.223-.5-.5-.5h-13zM2 6h12v1H2V6zm-.5 3c-.277 0-.5.223-.5.5v2c0 .277.223.5.5.5h13c.277 0 .5-.223.5-.5v-2c0-.277-.223-.5-.5-.5h-13zm.5 1h12v1H2v-1zm-.5 3c-.277 0-.5.223-.5.5v2c0 .277.223.5.5.5h13c.277 0 .5-.223.5-.5v-2c0-.277-.223-.5-.5-.5h-13zm.5 1h12v1H2v-1z"/>
+  {% when "align-left" %}
+    <title>Align Left</title>
+    <path d="M2 2v1h12V2zm0 4v1h8V6zm0 4v1h12v-1zm0 4v1h8v-1z" opacity=".2"/>
+    <path d="M1.5 1c-.277 0-.5.223-.5.5v2c0 .277.223.5.5.5h13c.277 0 .5-.223.5-.5v-2c0-.277-.223-.5-.5-.5zM2 2h12v1H2zm-.5 3c-.277 0-.5.223-.5.5v2c0 .277.223.5.5.5h9c.277 0 .5-.223.5-.5v-2c0-.277-.223-.5-.5-.5zM2 6h8v1H2zm-.5 3c-.277 0-.5.223-.5.5v2c0 .277.223.5.5.5h13c.277 0 .5-.223.5-.5v-2c0-.277-.223-.5-.5-.5zm.5 1h12v1H2zm-.5 3c-.277 0-.5.223-.5.5v2c0 .277.223.5.5.5h9c.277 0 .5-.223.5-.5v-2c0-.277-.223-.5-.5-.5zm.5 1h8v1H2z"/>
+  {% when "align-right" %}
+    <title>Align Right</title>
+    <path d="M14 2v1H2V2zm0 4v1H6V6zm0 4v1H2v-1zm0 4v1H6v-1z" opacity=".2"/>
+    <path d="M14.5 1c.277 0 .5.223.5.5v2c0 .277-.223.5-.5.5h-13a.499.499 0 01-.5-.5v-2c0-.277.223-.5.5-.5zM14 2H2v1h12zm.5 3c.277 0 .5.223.5.5v2c0 .277-.223.5-.5.5h-9a.499.499 0 01-.5-.5v-2c0-.277.223-.5.5-.5zM14 6H6v1h8zm.5 3c.277 0 .5.223.5.5v2c0 .277-.223.5-.5.5h-13a.499.499 0 01-.5-.5v-2c0-.277.223-.5.5-.5zm-.5 1H2v1h12zm.5 3c.277 0 .5.223.5.5v2c0 .277-.223.5-.5.5h-9a.499.499 0 01-.5-.5v-2c0-.277.223-.5.5-.5zm-.5 1H6v1h8z"/>
+  {% when "align-v-bottom" %}
+    <title>Align Vertical Bottom</title>
+    <path d="M3.001 3v10.002H6V3.001zM9 5.999v7.004h3V5.998z" opacity=".2"/>
+    <path d="M16 15.002H0v-2.003h2.003V2.502a.49.49 0 01.492-.499H6.5a.5.5 0 01.5.499v10.5h1V5.5c0-.276.224-.499.5-.499H12.5a.5.5 0 01.503.5v7.502H16zm-4-2.003V6.002H9v7zm-5.998 0V3.005h-3v9.997z"/>
+  {% when "align-v-bottom-to-anchor" %}
+    <title>Align Vertical Bottom to Anchor</title>
+    <path d="M11 11h3v4.006h-3z" opacity=".4"/>
+    <path d="M3.001 1.002v7.994H6V1.002zM9 3.999v5h3V4z" opacity=".2"/>
+    <path d="M16 11h-.994V15.5a.499.499 0 01-.503.499H10.5a.499.499 0 01-.499-.499v-4.498H0V9h2.003V.499c0-.272.216-.499.492-.499H6.5c.276 0 .5.223.5.499v8.505h1V3.496c0-.276.224-.499.5-.499H12.5a.5.5 0 01.503.5v5.499H16zm-2 4.006v-4.007h-3v4.007zm-2-6.01V3.999H9v5zm-5.998 0V1.002h-3v7.994z"/>
+  {% when "align-v-center" %}
+    <title>Align Vertical Center</title>
+    <path d="M2.003 2.004V14H6V2.004zM9 3.999v8.002h4.003V4H8.996z" opacity=".2"/>
+    <path d="M1.5 1.002a.499.499 0 00-.498.499v4.498H2V2.004h3.999v3.999H7V1.5a.499.499 0 00-.499-.499zm7 2a.499.499 0 00-.498.498V6H9v-2h4.003v2.004H14V3.497a.499.499 0 00-.498-.5zM0 7v2.003h2.003V7zm3.001 0v2.003h4V7zm5 0v2.003h4V7zm5.002 0v2.003H16V7zM1.002 10V14.5a.5.5 0 00.499.502h5a.499.499 0 00.5-.502v-4.498H5.998V14H2.003v-4zm7 0v2.5a.5.5 0 00.499.502h5a.499.499 0 00.5-.503v-2.498h-.998v2H8.996V9.997z"/>
+  {% when "align-v-top" %}
+    <title>Align Vertical Top</title>
+    <path d="M3.001 3.002v10H6v-10zm5.999 0v7h3v-7z" opacity=".2"/>
+    <path d="M16 1.002H0v2h2.003v10.5c0 .276.22.499.495.499h4.003a.499.499 0 00.5-.5v-10.5h1v7.5c0 .276.224.499.5.499H12.5a.499.499 0 00.503-.5V3.003H16zm-4 2v7H9v-7zm-5.998 0v10h-3v-10z"/>
+  {% when "align-v-top-to-anchor" %}
+    <title>Align Vertical Top to Anchor</title>
+    <path d="M11 1.002h3V5h-3z" opacity=".4"/>
+    <path d="M3.001 7v8.006H6V7zM9 7v5h3V7z" opacity=".2"/>
+    <path d="M16 5h-.994V.504A.499.499 0 0014.499 0H10.5a.499.499 0 00-.499.499v4.498H0V7h2.003v8.501c0 .276.22.499.495.499h4.003a.499.499 0 00.5-.499v-8.5h1V12.5a.5.5 0 00.5.503H12.5a.499.499 0 00.503-.503V7H16zm-2-3.998V5h-3V1zM12 7v5H9V7zM6.003 7v8.006h-3V7z"/>
+  {% when "anchor" %}
+    <title>Anchor</title>
+    <path d="M8 0a2 2 0 00-2 2 2 2 0 001 1.729V6H5v1h2v7c-2 0-4-1-4-4h1L1 7v3c0 4 3 6 7 6s7-2 7-6V7l-3 3h1c0 3-2 4-4 4V7h2V6H9V3.73A2 2 0 008 0zm0 1a1 1 0 110 2 1 1 0 010-2z"/>
+  {% when "archive" %}
+    <title>Archive</title>
+    <path d="M2 2v2h12V2zm0 3v8c0 .554.446 1 1 1h10c.554 0 1-.446 1-1V5zm4 2h4c.554 0 1 .5 1 1v1c0 .5-.446 1-1 1H6c-.554 0-1-.446-1-1V8c0-.554.446-1 1-1z" opacity=".2"/>
+    <path d="M2 1c-.545 0-1 .455-1 1v11c0 1.1.9 2 2 2h10c1.1 0 2-.9 2-2V2c0-.545-.455-1-1-1zm0 1h12v2H2zm0 3h12v8c0 .563-.437 1-1 1H3c-.563 0-1-.437-1-1zm4 2c-.554 0-1 .446-1 1v1c0 .554.446 1 1 1h4c.554 0 1-.5 1-1V8c0-.5-.446-1-1-1zm0 1h4v1H6z"/>
+  {% when "arrow-o-down" %}
+    <title>Arrow Down</title>
+    <path d="M15 8.001a7 7 0 0 0-7-7 7 7 0 0 0-7 7 7 7 0 0 0 7 7 7 7 0 0 0 7-7z" opacity=".2"/>
+    <path d="M8 16.001c-5.188.197-9.359-5.47-7.643-10.363C1.64.934 7.64-1.498 11.834.982c3.257 1.722 4.973 5.861 3.809 9.382-.973 3.293-4.213 5.684-7.643 5.637zm0-1c4.618.177 8.283-4.957 6.62-9.268C13.605 2.54 10.06.47 6.79 1.113 3.28 1.652.61 5.175 1.034 8.7 1.32 12.191 4.497 15.066 8 15.001zm-.02-2a.5.5 0 0 1-.39-.213l-3.498-5a.5.5 0 0 1 .41-.787h2.496v-4H9l-.002 4h2.5a.5.5 0 0 1 .41.787l-3.498 5a.5.5 0 0 1-.43.213z"/>
+  {% when "arrow-o-left" %}
+    <title>Arrow Left</title>
+    <path d="M8 15.001a7 7 0 0 0 7-7 7 7 0 0 0-7-7 7 7 0 0 0-7 7 7 7 0 0 0 7 7z" opacity=".2"/>
+    <path d="M-.014 8.014C-.211 2.826 5.456-1.345 10.349.371c4.704 1.283 7.136 7.283 4.656 11.477-1.722 3.257-5.861 4.973-9.382 3.809-3.293-.973-5.684-4.213-5.637-7.643zm1 0c-.177 4.618 4.957 8.283 9.268 6.62 3.193-1.014 5.263-4.56 4.62-7.83-.54-3.51-4.063-6.18-7.587-5.755C3.796 1.334.92 4.511.986 8.014zm2-.02a.5.5 0 0 1 .213-.39l5-3.498a.5.5 0 0 1 .787.41v2.496h4v2.002l-4-.002v2.5a.5.5 0 0 1-.787.41l-5-3.498a.5.5 0 0 1-.213-.43z"/>
+  {% when "arrow-o-right" %}
+    <title>Arrow Right</title>
+    <path d="M7.973 15.001a7 7 0 0 1-7-7 7 7 0 0 1 7-7 7 7 0 0 1 7 7 7 7 0 0 1-7 7z" opacity=".2"/>
+    <path d="M15.987 8.014c.197-5.188-5.47-9.359-10.363-7.643C.92 1.654-1.513 7.654.967 11.848c1.722 3.257 5.862 4.973 9.383 3.809 3.293-.973 5.684-4.213 5.637-7.643zm-1 0c.177 4.618-4.957 8.283-9.268 6.62-3.193-1.014-5.263-4.56-4.62-7.83.54-3.51 4.063-6.18 7.587-5.755 3.491.285 6.366 3.462 6.301 6.965zm-2-.02a.5.5 0 0 0-.213-.39l-5-3.498a.5.5 0 0 0-.787.41v2.496h-4v2.002l4-.002v2.5a.5.5 0 0 0 .787.41l5-3.498a.5.5 0 0 0 .213-.43z"/>
+  {% when "arrow-o-up" %}
+    <title>Arrow Up</title>
+    <path d="M15 8a7 7 0 0 1-7 7 7 7 0 0 1-7-7 7 7 0 0 1 7-7 7 7 0 0 1 7 7z" opacity=".2"/>
+    <path d="M8 0C2.812-.197-1.359 5.47.357 10.363 1.64 15.067 7.64 17.5 11.834 15.02c3.257-1.722 4.973-5.862 3.809-9.383C14.67 2.344 11.43-.047 8 0zm0 1c4.618-.177 8.283 4.957 6.62 9.268-1.014 3.193-4.56 5.263-7.83 4.62-3.51-.54-6.18-4.063-5.755-7.587C1.32 3.81 4.497.935 8 1zm-.02 2a.5.5 0 0 0-.39.213l-3.498 5a.5.5 0 0 0 .41.787h2.496v4H9l-.002-4h2.5a.5.5 0 0 0 .41-.787l-3.498-5A.5.5 0 0 0 7.98 3z"/>
+  {% when "article" %}
+    <title>Article</title>
+    <path d="M1 1v6h6V1zm7 0v1h7V1zM2 2h4v4H2zm6 1v1h6V3zm0 2v1h7V5zm0 2v1h6V7zm0 1H1v1h7zm1 1v6h6V9zm-7 1v1h6v-1zm8 0h4v4h-4zm-9 2v1h7v-1zm1 2v1h6v-1z"/>
+    <path d="M2 2v4h4V2zm8 8v4h4v-4z" opacity=".2"/>
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+{% comment %}
+=================================================================================================================================================================================================
+= Brand Icons
+=================================================================================================================================================================================================
+{% endcomment %}
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+{% comment %}
+=================================================================================================================================================================================================
+= Smileys
+=================================================================================================================================================================================================
+{% endcomment %}
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+  {% when "" %}
+    <title></title>
+    
+{% comment %}
+=================================================================================================================================================================================================
+= Error
+=================================================================================================================================================================================================
+{% endcomment %}
+  {% else %}
+    <title>SVG ERROR</title>
+    <desc>SVG ERROR: Icon name not found or undefined. Check Jekyll include declaration.</desc>
+    <path d="M2 2V9.832l2.54-3.176 1.985 2.975 2.924-3.89 2.053 2.052L14 5.295V2.002zm12 4.709l-2.498 2.5-1.95-1.95-3.077 4.104-2.016-3.017L2 11.424V14h12V8.123z" opacity=".2" fill="red"/>
+    <path d="M0 0v12.326l.893-1.115.107-.135 1-1.252V8.23L1 9.48V1h14v1.885l-1 1V2.002L2.025 2V9.832L3 8.613V3h10v3.32l1-1V5.3l1.855-1.855-.003-.004.148-.148V0zm7.959 4a2.997 2.997 0 00-2.998 2.998c0 .102.02.198.03.297l1.556 2.332.006.002L9.475 5.74l1.46 1.461c.005-.068.02-.133.02-.203A2.997 2.997 0 007.96 4zM16 4.71l-.85.85-.002-.001L14 6.707V6.734l-1 1V13h-1v-1c0-1.108-.892-2-2-2H7.523L6.5 11.363l-.885-1.324A1.993 1.993 0 004 12v1H3v-2.797l-.975 1.22V14H14V8.123l1-1V15H1v-.734l1-1.252V11.42l-1 1.25-.889 1.111L0 13.92V16h16zM9.578 7.26L7.557 9.953c.133.018.264.041.402.041a2.988 2.988 0 002.678-1.676z" fill="red"/>
+{% endcase %}
+</svg>
