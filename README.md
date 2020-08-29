@@ -6,8 +6,8 @@ Shades is an 16px pixel-fitted icon set that uses different levels (shades) of t
 If you like what you see consider [buying me a coffee](https://micahilbery.com/pay/) to help support me making things like this.
 
 ## Usage
-download this repo and you can grab the files from the `src` directory.
-you can always embed or use the source svgs as you see fit. Otherwise see the Jekyll include usage or SVG sprite sheet usage below.
+Download this repo and you can grab the files from the `src` directory.
+You can always embed or use the source svgs as you see fit. Otherwise see the Jekyll include usage or SVG sprite sheet usage below.
 
 ### Jekyll Include
 To use the Jekyll include place the `shades-icon.html` into your `_includes` folder and call it with `{% include shades-icon.html name="icon-name" class="optional-class" %}`. The available classes in the `shades.(s)css` are `size-2x`,`size-3x`, and `size-4x`. However you can include any custom classes in the class param. If you don't wish to add any classes you can leave out the class param in the call. The icons use `currentColor` for their fill by default but you can change that with css.
