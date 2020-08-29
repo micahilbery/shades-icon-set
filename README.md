@@ -6,7 +6,7 @@ Shades is an 16px pixel-fitted icon set that uses different levels (shades) of t
 If you like what you see consider [buying me a coffee](https://micahilbery.com/pay/) to help support me making things like this.
 
 ## Usage
-you can grab the files from the `src` directory in this repo.
+download this repo and you can grab the files from the `src` directory.
 you can always embed or use the source svgs as you see fit. Otherwise see the Jekyll include usage or SVG sprite sheet usage below.
 
 ### Jekyll Include
