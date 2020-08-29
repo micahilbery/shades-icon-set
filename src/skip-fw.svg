@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" height="16px" width="16px">
     <path d="M1 4.637v8.726L5.76 9z" opacity=".2"/>
-    <path style="line-height:normal;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;text-orientation:mixed;white-space:normal;shape-padding:0;isolation:auto;mix-blend-mode:normal;solid-color:#000;solid-opacity:1" d="M.47 3a.5.5 0 00-.47.5v11a.5.5 0 00.838.37L6 10.136V14.5a.5.5 0 00.838.37l6-5.5A.5.5 0 0013 9.015V14c0 .554.446 1 1 1h1c.554 0 1-.446 1-1V4c0-.554-.446-1-1-1h-1c-.554 0-1 .446-1 1v4.965a.5.5 0 00-.162-.334l-6-5.5A.5.5 0 006.47 3 .5.5 0 006 3.5v4.363L.838 3.131A.5.5 0 00.47 3zM14 4h1v10h-1zM1 4.637L5.76 9 1 13.363zm6 0L11.76 9 7 13.363V9.016a.5.5 0 000-.051z" color="#000" font-family="sans-serif" font-weight="400" overflow="visible"/>
+    <path d="M.47 3a.5.5 0 00-.47.5v11a.5.5 0 00.838.37L6 10.136V14.5a.5.5 0 00.838.37l6-5.5A.5.5 0 0013 9.015V14c0 .554.446 1 1 1h1c.554 0 1-.446 1-1V4c0-.554-.446-1-1-1h-1c-.554 0-1 .446-1 1v4.965a.5.5 0 00-.162-.334l-6-5.5A.5.5 0 006.47 3 .5.5 0 006 3.5v4.363L.838 3.131A.5.5 0 00.47 3zM14 4h1v10h-1zM1 4.637L5.76 9 1 13.363zm6 0L11.76 9 7 13.363V9.016a.5.5 0 000-.051z"/>
     <path d="M14 4v10h1V4z" opacity=".4"/>
     <path d="M7 4.637v4.328a.5.5 0 010 .05v4.348L11.76 9z" opacity=".3"/>
 </svg>
