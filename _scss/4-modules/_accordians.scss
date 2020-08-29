@@ -1,0 +1,23 @@
+.accordian-list {
+  border: var(--border);
+  border-radius: .5rem;
+  box-shadow: var(--shadow);
+  overflow: hidden;
+
+  details {
+    summary{
+      background: var(--bg-alt);
+      border-bottom: var(--border);
+      padding: 0 1rem;
+
+      h1,h2,h3,h4,h5,h6 {
+        display: inline-block;
+      }
+    }
+  }
+}
+
+.accordian-content {
+  border-bottom: var(--border);
+  padding: 1rem;
+}

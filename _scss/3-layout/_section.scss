@@ -1,0 +1,17 @@
+section {
+  padding: 1rem 0;
+}
+
+.alt-bg {
+  background: var(--bg-alt);
+}
+
+.up-next {
+  animation: load .5s ease-in;
+  display: grid;
+  flex: 1 0 auto;
+  grid-gap: 1rem;
+  margin: 0 auto;
+  max-width: var(--content-width);
+  padding: 1rem;
+}

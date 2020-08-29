@@ -1,0 +1,199 @@
+//=========//
+// Palette //
+//=========//
+/* Pink */
+$pink-100: #fcb4d9;
+$pink-300: #ec7cbd;
+$pink-500: #e03c9e;
+$pink-700: #c8107c;
+$pink-900: #9d135d;
+
+/* Purple */
+$purple-100: #c7b1ff;
+$purple-300: #ac7afa;
+$purple-500: #8439d1;
+$purple-700: #6b15bb;
+$purple-900: #460696;
+
+/* Cyan */
+$cyan-100: #b9fff2;
+$cyan-300: #70f8e4;
+$cyan-500: #00dccf;
+$cyan-700: #00a099;
+$cyan-900: #007876;
+
+/* Blue */
+$blue-100: #97c9fb;
+$blue-300: #7eb3fa;
+$blue-500: #4288f4;
+$blue-700: #3266e2;
+$blue-900: #0b2c9e;
+
+/* Green */
+$green-100: #b9edbd;
+$green-300: #73df8e;
+$green-500: #2bc15f;
+$green-700: #049042;
+$green-900: #006c30;
+
+/* Yellow */
+$yellow-100: #fff4c3;
+$yellow-300: #fee07b;
+$yellow-500: #f8c822;
+$yellow-700: #d4a000;
+$yellow-900: #986100;
+
+/* Orange */
+$orange-100: #feab7e;
+$orange-300: #fe8855;
+$orange-500: #f2592a;
+$orange-700: #c22d0c;
+$orange-900: #99140d;
+
+/* Red */
+$red-100: #ffabab;
+$red-300: #f68487;
+$red-500: #ee445b;
+$red-700: #c91f44;
+$red-900: #941630;
+
+/* Light Grey */
+$light-grey-100: #fdfdff;
+$light-grey-300: #f0f2f8;
+$light-grey-500: #cdd0d9;
+$light-grey-700: #a5acb7;
+$light-grey-900: #6f7681;
+
+/* Dark Grey */
+$dark-grey-100: #898a97;
+$dark-grey-300: #696b77;
+$dark-grey-500: #42434a;
+$dark-grey-700: #2f3033;
+$dark-grey-900: #1a1b1e;
+
+//==============//
+// Brand Colors //
+//==============//
+/* Codepen */
+$codepen-100: #8fe99c;
+$codepen-500: #47cf73;
+$codepen-900: #2c823f;
+
+/* Dribbble */
+$dribbble-100: #f682a0;
+$dribbble-500: #ea4c89;
+$dribbble-900: #a90b4e;
+
+/* GitHub */
+$github-100: #9de793;
+$github-500: #6cc644;
+$github-900: #247811;
+
+/* GitLab */
+$gitlab-100: #8574b8;
+$gitlab-500: #554488;
+$gitlab-900: #21174d;
+
+/* LinkedIn */
+$linkedin-100: #1facff;
+$linkedin-500: #0077b5;
+$linkedin-900: #004878;
+
+/* Mastodon */
+$mastodon-100: #6fd3ff;
+$mastodon-500: #2b90d9;
+$mastodon-900: #004b7a;
+
+/* Pixelfed */
+$pixelfed-100: #63c1f1;
+$pixelfed-500: #0088dd;
+$pixelfed-900: #004e96;
+
+/* Twitch */
+$twitch-100: #b9a3e3;
+$twitch-500: #6441a5;
+$twitch-900: #401c8c;
+
+/* Twitter */
+$twitter-100: #73d8ff;
+$twitter-500: #1da1f2;
+$twitter-900: #004b84;
+
+/* Unsplash */
+$unsplash-100: #fff;
+$unsplash-500: #888;
+$unsplash-900: #000;
+
+/* YouTube */
+$youtube-100: #ff9595;
+$youtube-500: #ff0000;
+$youtube-900: #be0000;
+
+/* Patreon */
+$patreon-100: #f9a995;
+$patreon-500: #f96854;
+$patreon-900: #ab2813;
+
+/* PayPal */
+$paypal-100: #009cde;
+$paypal-500: #003087;
+$paypal-900: #012169;
+
+/* Protonmail */
+$protonmail-100: #a9aee3;
+$protonmail-500: #8a90c7;
+$protonmail-900: #4d548f;
+
+/* Ko-fi */
+$ko-fi-100: #ffadad;
+$ko-fi-500: #ff5f5f;
+$ko-fi-900: #d72e21;
+
+/* Square Cash */
+$squarecash-100: #80d887;
+$squarecash-500: #0bb634;
+$squarecash-900: #0b7520;
+
+/* Venmo */
+$venmo-100: #8bd6f5;
+$venmo-500: #3c95d2;
+$venmo-900: #005c8c;
+
+//==================//
+// Solarized Colors //
+//==================//
+$sol-base00:  #657b83;
+$sol-base01:  #586e75;
+$sol-base02:  #073642;
+$sol-base03:  #002b36;
+$sol-base0:   #839496;
+$sol-base1:   #93a1a1;
+$sol-base2:   #eee8d5;
+$sol-base3:   #fdf6e3;
+
+$sol-yellow:  #b58900;
+$sol-orange:  #cb4b16;
+$sol-red:     #dc322f;
+$sol-magenta: #d33682;
+$sol-violet:  #6c71c4;
+$sol-blue:    #268bd2;
+$sol-cyan:    #2aa198;
+$sol-green:   #859900;
+
+//=============//
+// Breakpoints //
+//=============//
+$screen-xs: 320px;
+$screen-sm: 640px;
+$screen-md: 768px;
+$screen-lg: 1024px;
+$screen-xl: 1280px;
+
+//================//
+// Content Widths //
+//================//
+$content-xs: 45ch;
+$content-sm: 50ch;
+$content-md: 60ch;
+$content-lg: 75ch;
+$content-xl: 90ch;

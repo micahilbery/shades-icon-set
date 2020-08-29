@@ -1,0 +1,324 @@
+:root {
+  --content-width: #{$content-sm};
+}
+
+@media( min-width: $screen-sm ) {
+  :root {
+    --content-width: #{$content-md};
+  }
+}
+
+@media( min-width: $screen-lg ) {
+  :root {
+    --content-width: #{$content-lg};
+  }
+}
+
+@media( min-width: $screen-xl ) {
+  :root {
+    --content-width: #{$content-xl};
+  }
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 1rem;
+}
+
+.flex {
+  display: flex;
+  flex: 1 0 auto;
+}
+
+.flex-col { flex-direction: column; }
+.flex-row { flex-direction: row; }
+
+.flex-wrap { flex-wrap: wrap; }
+
+.halves  { grid-template-columns: repeat(2, 1fr); }
+.thirds  { grid-template-columns: repeat(3, 1fr); }
+.fourths { grid-template-columns: repeat(4, 1fr); }
+
+.full-width {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}
+
+.span-2    { grid-column: span 2; }
+.span-3    { grid-column: span 3; }
+.span-4    { grid-column: span 4; }
+
+// Grid Parent Aligns
+.itms-start     { place-items: start; }
+.itms-h-start   { justify-items: start; }
+.itms-v-start   { align-items: start; }
+
+.itms-end       { place-items: end; }
+.itms-h-end     { justify-items: end; }
+.itms-v-end     { align-items: end; }
+
+.itms-center    { place-items: center; }
+.itms-h-center  { justify-items: center; }
+.itms-v-center  { align-items: center; }
+
+.itms-stretch   { place-items: stretch; }
+.itms-h-stretch { justify-items: stretch; }
+.itms-v-stretch { align-items: stretch; }
+
+// Grid Child Aligns
+.start     { place-self: start; }
+.h-start   { justify-self: start; }
+.v-start   { align-self: start; }
+
+.end       { place-self: end; }
+.h-end     { justify-self: end; }
+.v-end     { align-self: end; }
+
+.center    { place-self: center; }
+.h-center  { justify-self: center; }
+.v-center  { align-self: center; }
+
+.stretch   { place-self: stretch; }
+.h-stretch { justify-self: stretch; }
+.v-stretch { align-self: stretch; }
+
+.constrained { max-width: $content-sm; margin: 0 auto; }
+
+// Text Aligns
+.text-center { text-align: center; }
+.text-left { text-align: left; }
+.text-right { text-align: right; }
+.text-justify { text-align: justify; }
+
+//----------------//
+// On Screen Size //
+//----------------//
+
+// Extra Small
+@media( max-width: $screen-xs ) {
+  .stack-xs {
+    grid-template-columns: 1fr;
+    grid-column: span 1;
+
+    .span-2,
+    .span-3,
+    .span-4 { grid-column: span 1; }
+  }
+
+  .halves-xs    { grid-template-columns: repeat(2, 1fr); }
+  .thirds-xs    { grid-template-columns: repeat(3, 1fr); }
+  .fourths-xs   { grid-template-columns: repeat(4, 1fr); }
+
+  .hide-xs      { display: none; }
+
+  .start-xs     { place-self: start; }
+  .h-start-xs   { justify-self: start; }
+  .v-start-xs   { align-self: start; }
+
+  .end-xs       { place-self: end; }
+  .h-end-xs     { justify-self: end; }
+  .v-end-xs     { align-self: end; }
+
+  .center-xs    { place-self: center; }
+  .h-center-xs  { justify-self: center; }
+  .v-center-xs  { align-self: center; }
+
+  .stretch-xs   { place-self: stretch; }
+  .h-stretch-xs { justify-self: stretch; }
+  .v-stretch-xs { align-self: stretch; }
+
+  // Text Aligns
+  .text-center-xs  { text-align: center; }
+  .text-left-xs    { text-align: left; }
+  .text-right-xs   { text-align: right; }
+  .text-justify-xs { text-align: justify; }
+}
+
+// Small
+@media( max-width: $screen-sm ) {
+  .stack-sm {
+    grid-template-columns: 1fr;
+    grid-column: span 1;
+
+    .span-2,
+    .span-3,
+    .span-4 { grid-column: span 1; }
+  }
+
+  .halves-sm    { grid-template-columns: repeat(2, 1fr); }
+  .thirds-sm    { grid-template-columns: repeat(3, 1fr); }
+  .fourths-sm   { grid-template-columns: repeat(4, 1fr); }
+
+  .hide-sm      { display: none; }
+
+  .start-sm     { place-self: start; }
+  .h-start-sm   { justify-self: start; }
+  .v-start-sm   { align-self: start; }
+
+  .end-sm       { place-self: end; }
+  .h-end-sm     { justify-self: end; }
+  .v-end-sm     { align-self: end; }
+
+  .center-sm    { place-self: center; }
+  .h-center-sm  { justify-self: center; }
+  .v-center-sm  { align-self: center; }
+
+  .stretch-sm   { place-self: stretch; }
+  .h-stretch-sm { justify-self: stretch; }
+  .v-stretch-sm { align-self: stretch; }
+
+  // Text Aligns
+  .text-center-sm  { text-align: center; }
+  .text-left-sm    { text-align: left; }
+  .text-right-sm   { text-align: right; }
+  .text-justify-sm { text-align: justify; }
+}
+
+// Medium
+@media( max-width: $screen-md ) {
+  .stack-md {
+    grid-template-columns: 1fr;
+    grid-column: span 1;
+
+    .span-2,
+    .span-3,
+    .span-4 { grid-column: span 1; }
+  }
+
+  .halves-md    { grid-template-columns: repeat(2, 1fr); }
+  .thirds-md    { grid-template-columns: repeat(3, 1fr); }
+  .fourths-md   { grid-template-columns: repeat(4, 1fr); }
+
+  .hide-md      { display: none; }
+
+  .start-md     { place-self: start; }
+  .h-start-md   { justify-self: start; }
+  .v-start-md   { align-self: start; }
+
+  .end-md       { place-self: end; }
+  .h-end-md     { justify-self: end; }
+  .v-end-md     { align-self: end; }
+
+  .center-md    { place-self: center; }
+  .h-center-md  { justify-self: center; }
+  .v-center-md  { align-self: center; }
+
+  .stretch-md   { place-self: stretch; }
+  .h-stretch-md { justify-self: stretch; }
+  .v-stretch-md { align-self: stretch; }
+
+  // Text Aligns
+  .text-center-md  { text-align: center; }
+  .text-left-md    { text-align: left; }
+  .text-right-md   { text-align: right; }
+  .text-justify-md { text-align: justify; }
+}
+
+// Large
+@media( max-width: $screen-lg ) {
+  .stack-lg {
+    grid-template-columns: 1fr;
+    grid-column: span 1;
+
+    .span-2,
+    .span-3,
+    .span-4 { grid-column: span 1; }
+  }
+
+  .halves-lg    { grid-template-columns: repeat(2, 1fr); }
+  .thirds-lg    { grid-template-columns: repeat(3, 1fr); }
+  .fourths-lg   { grid-template-columns: repeat(4, 1fr); }
+
+  .hide-lg      { display: none; }
+
+  .start-lg     { place-self: start; }
+  .h-start-lg   { justify-self: start; }
+  .v-start-lg   { align-self: start; }
+
+  .end-lg       { place-self: end; }
+  .h-end-lg     { justify-self: end; }
+  .v-end-lg     { align-self: end; }
+
+  .center-lg    { place-self: center; }
+  .h-center-lg  { justify-self: center; }
+  .v-center-lg  { align-self: center; }
+
+  .stretch-lg   { place-self: stretch; }
+  .h-stretch-lg { justify-self: stretch; }
+  .v-stretch-lg { align-self: stretch; }
+
+  // Text Aligns
+  .text-center-lg  { text-align: center; }
+  .text-left-lg    { text-align: left; }
+  .text-right-lg   { text-align: right; }
+  .text-justify-lg { text-align: justify; }
+}
+
+// Extra Large
+@media( max-width: $screen-xl ) {
+  .stack-xl {
+    grid-template-columns: 1fr;
+    grid-column: span 1;
+
+    .span-2,
+    .span-3,
+    .span-4 { grid-column: span 1; }
+  }
+
+  .halves-xl    { grid-template-columns: repeat(2, 1fr); }
+  .thirds-xl    { grid-template-columns: repeat(3, 1fr); }
+  .fourths-xl   { grid-template-columns: repeat(4, 1fr); }
+
+  .hide-xl      { display: none; }
+
+  .start-xl     { place-self: start; }
+  .h-start-xl   { justify-self: start; }
+  .v-start-xl   { align-self: start; }
+
+  .end-xl       { place-self: end; }
+  .h-end-xl     { justify-self: end; }
+  .v-end-xl     { align-self: end; }
+
+  .center-xl    { place-self: center; }
+  .h-center-xl  { justify-self: center; }
+  .v-center-xl  { align-self: center; }
+
+  .stretch-xl   { place-self: stretch; }
+  .h-stretch-xl { justify-self: stretch; }
+  .v-stretch-xl { align-self: stretch; }
+
+  // Text Aligns
+  .text-center-xl  { text-align: center; }
+  .text-left-xl    { text-align: left; }
+  .text-right-xl   { text-align: right; }
+  .text-justify-xl { text-align: justify; }
+}
+
+//--------------------//
+// Except Screen Size //
+//--------------------//
+
+@media( min-width: $screen-xs ) {
+  .show-xs { display: none; }
+}
+
+@media( min-width: $screen-sm ) {
+  .show-sm { display: none; }
+}
+
+@media( min-width: $screen-md ) {
+  .show-md { display: none; }
+}
+
+@media( min-width: $screen-lg ) {
+  .show-lg { display: none; }
+}
+
+@media( min-width: $screen-xl ) {
+  .show-xl { display: none; }
+}

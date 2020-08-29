@@ -1,0 +1,66 @@
+//=========//
+// Shadows //
+//=========//
+@mixin get-shadow-scheme( $scheme : 'light' ) {
+  @if ( $scheme != 'dark' ) {
+    // Light Scheme Shadows //
+    --inset-bg: #{linear-gradient(rgba(black, .05), rgba(black, 0))};
+    --inset-txt: 0px 1px 0px white;
+    --inset-txt-invert: #{0px -1px 0px rgba(black, .3)};
+    --inset-highlight: #{0px 1px 0px rgba(white, 1)};
+
+    --shadow: #{0 4px 8px rgba(black, .2)};
+    --shadow-hvr: #{0 8px 16px rgba(black, .1)};
+
+    --outset-bg: #{linear-gradient(rgba(white, .3), rgba(white, 0))};
+    --outset-bg-hvr: #{linear-gradient(rgba(white, .4), rgba(white, 0))};
+
+    --outset-highlight: #{inset 0px 1px 0px rgba(white, .6)},
+                        #{inset 0px -1px 0px rgba(white, .3)},
+                        #{inset 1px 0px 0px rgba(white, .1)},
+                        #{inset -1px 0px 0px rgba(white, .1)};
+    --outset-highlight-invert: #{inset 0px 1px 0px rgba(white, .2)},
+                               #{inset 0px -1px 0px rgba(white, .1)},
+                               #{inset 1px 0px 0px rgba(white, .05)},
+                               #{inset -1px 0px 0px rgba(white, .05)};
+  } @else {
+    // Dark Scheme Shadows //
+    --inset-bg: #{linear-gradient(rgba(black, .25), rgba(black, 0))};
+    --inset-txt: #{0px -1px 0px rgba(black, .8)};
+    --inset-txt-invert: #{0px 1px 0px rgba(white, .8)};
+    --inset-highlight: #{0px 1px 0px rgba(white, .2)};
+
+    --shadow: #{0 4px 8px rgba(black, .3)};
+    --shadow-hvr: #{0 8px 16px rgba(black, .2)};
+
+    --outset-bg: #{linear-gradient(rgba(white, .1), rgba(white, 0))};
+    --outset-bg-hvr: #{linear-gradient(rgba(white, .2), rgba(white, 0))};
+
+    --outset-highlight: #{inset 0px 1px 0px rgba(white, .2)},
+                        #{inset 0px -1px 0px rgba(white, .1)},
+                        #{inset 1px 0px 0px rgba(white, .05)},
+                        #{inset -1px 0px 0px rgba(white, .05)};
+    --outset-highlight-invert: #{inset 0px 1px 0px rgba(white, .6)},
+                               #{inset 0px -1px 0px rgba(white, .3)},
+                               #{inset 1px 0px 0px rgba(white, .1)},
+                               #{inset -1px 0px 0px rgba(white, .1)};
+  }
+}
+
+:root {
+  @include get-shadow-scheme('light');
+}
+
+@media( prefers-color-scheme: dark ) {
+  :root {
+    @include get-shadow-scheme('dark');
+  }
+}
+
+.light {
+  @include get-shadow-scheme('light');
+}
+
+.dark {
+  @include get-shadow-scheme('dark');
+}

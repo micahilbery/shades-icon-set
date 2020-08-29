@@ -1,0 +1,31 @@
+.badge {
+  background-color: var(--tag-bg);
+  background-image: var(--outset-bg);
+  border: var(--border);
+  border-radius: 1000rem;
+  box-shadow: var(--outset-highlight);
+  color: var(--tag-txt);
+  display: inline-block;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  margin: 0.25rem;
+  padding: .1rem .5rem;
+  text-decoration: none;
+  
+  &:hover,
+  &:focus {
+    color:var(--tag-txt-hvr);
+    text-decoration: none;
+  }
+
+  &:active {
+    background-image: var(--inset-bg);
+    color:var(--tag-txt-act);
+    text-decoration: none;
+  }
+
+  .icon {
+    margin-right: .25rem;
+    vertical-align: text-top;
+  }
+}

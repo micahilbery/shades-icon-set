@@ -1,0 +1,42 @@
+---
+---
+// Helpers
+@import "1-helpers/variables";
+@import "1-helpers/functions";
+@import "1-helpers/mixins";
+
+.icon-panel {
+  background-color: var(--bg-alt);
+  color: var(--txt-alt);
+  max-height: 60vh;
+  overflow: auto;
+}
+
+.icon-grid {
+  display: grid;
+  grid-template-columns: repeat( auto-fill, minmax(100px, 1fr) );
+  grid-gap: 1rem;
+}
+
+.icon-container{
+  text-align: center;
+  height: 100px;
+
+  .icon-name {
+    opacity: 0;
+    transition: opacity .15s ease-in-out;
+  }
+  
+  &:hover,
+  &:focus {
+    .icon-name {
+      opacity: 1;
+    }
+  }
+}
+
+.icon-name {
+  font-size: .8rem;
+  line-height: 1.2;
+  margin-top: .25rem;
+}

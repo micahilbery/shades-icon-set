@@ -1,0 +1,13 @@
+article {
+  animation: load .5s ease-in;
+  display: grid;
+  flex: 1 0 auto;
+  grid-gap: 1rem;
+  margin: 0 auto;
+  max-width: var(--content-width);
+  padding: 1rem;
+}
+
+.project-article {
+  --content-width: #{$content-xl}
+}

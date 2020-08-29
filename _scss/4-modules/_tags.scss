@@ -1,0 +1,34 @@
+aside.tags {
+  margin: .5rem 0;
+  max-width: $content-sm;
+}
+
+.tag {
+  background-color: var(--tag-bg);
+  border: var(--border);
+  border-radius: .25rem;
+  box-shadow: var(--outset-highlight);
+  color: var(--tag-txt);
+  display: inline-block;
+  font-size: 0.8rem;
+  line-height: 1.6rem;
+  margin: 0.25rem;
+  padding: 0 .5rem;
+  text-decoration: none;
+  
+  &:hover,
+  &:focus {
+    color:var(--tag-txt-hvr);
+    text-decoration: none;
+  }
+
+  &:active {
+    color:var(--tag-txt-act);
+    text-decoration: none;
+  }
+
+  .shades-icon {
+    margin-right: .25rem;
+    vertical-align: text-top;
+  }
+}

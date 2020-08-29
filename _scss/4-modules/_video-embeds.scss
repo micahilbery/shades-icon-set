@@ -1,0 +1,34 @@
+.video-embed,
+.video-thumbnail {
+  background: {
+    color: black;
+    position: center;
+    size: contain;
+    repeat: no-repeat;
+  }
+  border: var(--border);
+  border-radius: .5rem;
+  box-shadow: var(--outset-highlight), var(--shadow);
+  display: flex;
+  flex-grow: 1;
+  position:relative;
+  padding-bottom:56.25%;
+  padding-top:30px;
+  height:0;
+  overflow:hidden;
+}
+
+.video-embed iframe,
+.video-embed object,
+.video-embed embed,
+.video-thumbnail img {
+  border-radius: .5rem;
+  overflow:hidden;
+  position:absolute;
+  top:0;
+  left:0;
+  right: 0;
+  bottom: 0;
+  width:100%;
+  height:100%;
+}

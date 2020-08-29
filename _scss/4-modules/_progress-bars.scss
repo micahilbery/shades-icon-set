@@ -1,0 +1,28 @@
+.progress-bar{
+  background: {
+    color: var(--bg-alt);
+    image: var(--inset-bg);
+  }
+  border: var(--border);
+  border-radius: 1000rem;
+  box-shadow: var(--inset-highlight);
+  height: .5rem;
+  overflow: hidden;
+}
+
+.progress-fill{
+  position: relative;
+  display: block;
+  width: 0%;
+  height: 100%;
+  border:{
+    right: var(--border);
+    radius: 1000rem;
+  }
+  animation: fill 1s ease-in-out;
+  background: {
+    color: var(--progress-bg);
+    image: var(--outset-bg);
+  }
+  box-shadow: var(--shadow);
+}

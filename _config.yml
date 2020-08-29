@@ -1,0 +1,67 @@
+#--------------------#
+# Jekyll config file #
+#--------------------#
+
+# Site settings
+title: Shades Icon Set
+email: micah.ilbery@protonmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Shades is an 16px pixel-fitted icon set that uses different levels (shades) of transparency for the colors. This set was primarily made for the use on the web but the SVGs are in here to use for whatever. Along with the SVGs there is a Jekyll include file for easy use on GitHub Pages or wherever you do your Jekyll, an SVG sprite sheet, and an accompanying (s)css file(s).
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "https://micahilbery.com/shades-icon-set/" # the base hostname & protocol for your site, e.g. http://example.com
+copyright_start: 2020
+
+#Theme Colors
+theme_color: "#2f3033"
+safari_pinned_tab: "#e03c9e"
+ms_tile_color: "#e03c9e"
+
+# Socialmedia usernames
+socials:
+  codepen: micahilbery
+  dribbble: micahilbery
+  github: micahilbery
+#  gitlab: micahilbery
+#  linkedin: micahilbery
+  mastodon:
+    instance: mastodon.social
+    username: micahilbery
+#  pixelfed:
+#    instance: pixelfed.social
+#    username: micahilbery
+#  twitch: micahilbery
+  twitter: micahilbery
+#  unsplash: micahilbery
+#  youtube: MicahIlbery
+
+# Gravatar Avatar Image
+gravatar_hash: eab584b2d2b890a0bc6a25c29bbcac00
+
+# Financial supports
+support_options:
+  google-pay: micah.ilbery@gmail.com
+  ko-fi: micahilbery
+  paypal: micahilbery
+#  patreon:
+  squarecash: micahilbery01
+  venmo: micahilbery
+
+rss: rss
+
+# Build settings
+sass:
+  sass_dir: _scss
+  style: compressed
+  sourcemap: always
+theme: minima
+plugins:
+- jekyll-feed
+- jekyll-sitemap
+
+kramdown:
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+      line_numbers: true
+future: false
+exclude: [README.md, Gemfile, Gemfile.lock, vendor]

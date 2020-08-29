@@ -1,0 +1,51 @@
+@supports(-webkit-appearance: none) {
+  input[type="checkbox"].switch,
+  fieldset input[type="checkbox"].switch {
+    //  Remove the default styling.
+    -webkit-appearance: none;
+    // Style the radio button container.
+    background: var(--bg-alt);
+    background-image: var(--inset-bg);
+    border: var(--border);
+    box-shadow: var(--inset-highlight);
+    margin: 0;
+    padding: 0;
+    border-radius: 1000rem;
+    height: 1.5rem;
+    width: 3rem;
+    line-height: 1;
+    vertical-align: middle;
+    position: relative;
+    transition: all .3s ease-in-out;
+    
+    &:after {
+      content: '';
+      height: 1.5rem;
+      width: 1.5rem;
+      position: absolute;
+      left: -2px;
+      top: -2px;
+      bottom: -2px;
+      background: var(--bg-main);
+      background-image: var(--outset-bg);
+      border: var(--border);
+      border-radius: 50%;
+      box-shadow: var(--shadow);
+      transition: transform .3s ease-in-out;
+    }
+  }
+
+	input[type="checkbox"].switch:checked,
+  fieldset input[type="checkbox"].switch:checked {
+    background-color: var(--switch-bg);
+    background-image: var(--inset-bg);
+    border: var(--border);
+    box-shadow: var(--inset-highlight);
+    
+    &:after { transform: translateX(1.5rem); }
+
+    + label {
+      color: var(--accent-color);
+    }
+  }
+}
