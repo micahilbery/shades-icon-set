@@ -1,6 +1,6 @@
 ---
 layout: page
-id: home
+id: shades-home
 css: true
 ---
 
