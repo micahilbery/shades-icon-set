@@ -3,6 +3,8 @@
 
 Shades is an 16px pixel-fitted icon set that uses different levels (shades) of transparency for the colors. This set was primarily made for the use on the web but the SVGs are in here to use for whatever. Along with the SVGs there is a Jekyll include file for easy use on GitHub Pages or wherever you do your Jekyll, an SVG sprite sheet, and an accompanying (s)css file(s).
 
+If you like what you see consider [buying me a coffee](https://micahilbery.com/pay/) to help support me making things like this.
+
 ## Usage
 you can grab the files from the `src` directory in this repo.
 you can always embed or use the source svgs as you see fit. Otherwise see the Jekyll include usage or SVG sprite sheet usage below.
