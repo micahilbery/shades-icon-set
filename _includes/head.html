@@ -59,7 +59,7 @@
     {% assign css_id = page.id %}
   {%- endif -%}
   {%- if page.css and css_id -%}
-  <link rel="stylesheet" href="{{ '/assets/styles/css_id.css' | replace: 'css_id', css_id relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/styles/css_id.css' | replace: 'css_id', css_id }}">
   {%- endif -%}
 
   {%- feed_meta -%}
