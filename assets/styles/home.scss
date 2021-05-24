@@ -5,10 +5,15 @@
 @import "1-helpers/functions";
 @import "1-helpers/mixins";
 
+.align-top {
+  vertical-align: text-top;
+}
+
 .icon-panel {
   background-color: var(--bg-alt);
   max-height: 60vh;
   overflow: auto;
+  margin: 2rem 0;
 }
 
 .icon-grid {

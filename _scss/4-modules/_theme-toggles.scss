@@ -11,7 +11,7 @@
   }
   border-radius: 0 0 0 50%;
   display: none; // Button won't show unless javascript is enabled.
-  position: absolute;
+  position: fixed;
   right: 0;
   top: 0;
   width: 2.5rem;

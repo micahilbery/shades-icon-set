@@ -7,11 +7,9 @@
   --txt-fine: #{$light-grey-700};
   --txt-inverse: #{$dark-grey-700};
 
-  --focus-color: #{$cyan-300};
+  --focus-color: #{$blue-300};
 
-  --accent-color: #{$pink-300};
-  --accent-gradient: linear-gradient(rgba(0,0,0,0.1), transparent), linear-gradient(to right, #{$pink-700}, #{$purple-700},
-#{$cyan-700});
+  --accent-color: #{$cyan-300};
 
   --border: #{1px solid rgba(black, .8)};
 
@@ -43,7 +41,7 @@
   --code-green: #{$sol-green};
 
   --ln-txt: var(--accent-color);
-  --ln-hvr: #{$cyan-300};
+  --ln-hvr: #{$pink-300};
   --ln-act: #{$purple-100};
 
   --btn-bg: #{$dark-grey-500};
