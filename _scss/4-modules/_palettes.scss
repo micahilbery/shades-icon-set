@@ -1,0 +1,40 @@
+.hex {
+  text-transform: uppercase;
+
+  &:before {
+    content: '#';
+  }
+}
+
+.swatch {
+  border: var(--border);
+  border-radius: .5rem;
+  display: grid;
+  grid-template-rows: 2fr repeat(5, 1fr);
+  overflow: hidden;
+  box-shadow: var(--outset-highlight), var(--shadow);
+  text-shadow: none;
+}
+
+.swatch-top {
+  align-items: center;
+  display: grid;
+  justify-content: center;
+}
+
+.swatch-color {
+  align-items: center;
+  display: grid;
+  font-family: $font-mono;
+  grid-gap: 1rem;
+  grid-template-columns: 1fr 1fr;
+  padding: 1rem;
+}
+
+.swatch-color > :first-child {
+  justify-self: start;
+}
+
+.swatch-color > :last-child {
+  justify-self: end;
+}

@@ -1,0 +1,19 @@
+footer {
+  --content-width: #{$content-md};
+
+  animation: load .5s ease-in;
+  color: var(--txt-alt);
+  display: grid;
+  grid-gap: 1rem;
+  margin: 0 auto;
+  max-width: var(--content-width);
+  padding: 2rem 1rem 1rem 1rem;
+
+  @media( min-width: $screen-sm ) {
+    --content-width: #{$content-lg};
+  }
+
+  @media( min-width: $screen-lg ) {
+    --content-width: #{$content-xl};
+  }
+}

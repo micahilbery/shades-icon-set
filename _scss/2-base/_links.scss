@@ -1,0 +1,64 @@
+:root {
+  --ln-ul: underline;
+}
+
+a {
+  color: var(--ln-txt);
+  text-decoration: none;
+
+  &:hover,
+  &:focus {
+    color: var(--ln-hvr);
+    outline: none;
+    text-decoration: var(--ln-ul);
+    text-shadow: none;
+  }
+
+  &:active {
+    color: var(--ln-act);
+
+    &::selection {
+      color: var(--ln-act);
+    }
+
+    &::-moz-selection {
+      color: var(--ln-act);
+    }
+  }
+
+  &::selection {
+    background: var(--sel-bg-alt);
+    color: var(--sel-txt-alt);
+  }
+
+  &::-moz-selection {
+    background: var(--sel-bg-alt);
+    color: var(--sel-txt-alt);
+  }
+}
+
+.ln-list {
+  list-style-type: none;
+}
+
+.icon-ln {
+  text-decoration: none;
+
+  .icon {
+    margin-right: .1rem;
+    transition: margin .15s ease-out;
+  }
+
+  &:hover {
+    text-decoration: none;
+    text-shadow: var(--inset-txt);
+
+    .icon {
+      margin-right: .25rem;
+    }
+  }
+
+  &:active {
+    text-decoration: none;
+  }
+}

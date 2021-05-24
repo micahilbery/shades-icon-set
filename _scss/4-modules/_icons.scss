@@ -1,0 +1,24 @@
+.icon {
+  fill: currentColor;
+  height: 16px;
+  width: 16px;
+  filter: drop-shadow(var(--inset-txt));
+  // fix blurriness on firefox. //
+  transform: translateY(1px);
+}
+
+.icon.x2 {
+  height: 32px;
+  width: 32px;
+  vertical-align: middle
+}
+
+.icon.x3 {
+  height: 48px;
+  width: 48px;
+}
+
+.icon.x4 {
+  height: 64px;
+  width: 64px;
+}

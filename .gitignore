@@ -1,0 +1,9 @@
+*~
+_assets
+_site
+.sass-cache
+.jekyll-metadata
+init.sh
+node_modules
+package.json
+Gemfile.lock

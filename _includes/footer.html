@@ -1,0 +1,178 @@
+<footer>
+  <hr>
+  <div class="grid halves stack-sm">
+    <div class="h-stretch start-sm">
+      <h4 class="accent-lined">Socials</h4>
+      <p>Want to keep up with whatever I'm doing, follow me around on the internet, or get in touch? You can do all that here:</p>
+      <ul class="ln-list">
+        {% if site.socials.twitter %}
+        <li>
+          <a rel="nofollow noopener noreferrer" target="_blank" href="https://twitter.com/{{ site.socials.twitter }}" class="icon-ln twitter">
+            {% include modules/shades-icon.html name="twitter" %}
+            Twitter
+          </a>
+        </li>
+        {% endif %}
+        {%- if site.socials.mastodon.instance and site.socials.mastodon.username -%}
+        <li>
+          <a rel="nofollow noopener noreferrer" target="_blank" href="https://{{ site.socials.mastodon.instance }}/@{{ site.socials.mastodon.username }}" class="icon-ln mastodon">
+            {% include modules/shades-icon.html name="mastodon" %}
+            Mastodon
+          </a>
+        </li>
+        {% endif %}
+        {% if site.socials.dribbble %}
+        <li>
+          <a rel="nofollow noopener noreferrer" target="_blank" href="https://dribbble.com/{{ site.socials.dribbble }}" class="icon-ln dribbble">
+            {% include modules/shades-icon.html name="dribbble" %}
+            Dribbble
+          </a>
+        </li>
+        {% endif %}
+        {% if site.socials.linkedin %}
+        <li>
+          <a rel="nofollow noopener noreferrer" target="_blank" href="https://linkedin.com/in/{{ site.socials.linkedin }}" class="icon-ln linkedin">
+            {% include modules/shades-icon.html name="linkedin" %}
+            LinkedIn
+          </a>
+        </li>
+        {% endif %}
+        {% if site.socials.github %}
+        <li>
+          <a rel="nofollow noopener noreferrer" target="_blank" href="https://github.com/{{ site.socials.github }}" class="icon-ln github">
+            {% include modules/shades-icon.html name="github" %}
+            GitHub
+          </a>
+        </li>
+        {% endif %}
+        {% if site.socials.gitlab %}
+        <li>
+          <a rel="nofollow noopener noreferrer" target="_blank" href="https://gitlab.com/{{ site.socials.gitlab }}" class="icon-ln gitlab">
+            {% include modules/shades-icon.html name="gitlab" %}
+            GitLab
+          </a>
+        </li>
+        {% endif %}
+        {% if site.socials.codepen %}
+        <li>
+          <a rel="nofollow noopener noreferrer" target="_blank" href="https://codepen.io/{{ site.socials.codepen }}" class="icon-ln codepen">
+            {% include modules/shades-icon.html name="codepen" %}
+            Codepen
+          </a>
+        </li>
+        {% endif %}
+        {% if site.socials.twitch %}
+        <li>
+         <a rel="nofollow noopener noreferrer" target="_blank" href="https://twitch.tv/{{ site.socials.twitch }}" class="icon-ln twitch">
+           {% include modules/shades-icon.html name="twitch" %}
+           Twitch
+         </a>
+        </li>
+        {% endif %}
+        {% if site.socials.youtube %}
+        <li>
+         <a rel="nofollow noopener noreferrer" target="_blank" href="https://youtube.com/c/{{ site.socials.youtube }}" class="icon-ln youtube">
+           {% include modules/shades-icon.html name="youtube" %}
+           YouTube
+         </a>
+        </li>
+        {% endif %}
+        {% if site.discord-invite %}
+        <li>
+         <a rel="nofollow noopener noreferrer" target="_blank" href="https://discord.gg/{{ site.discord-invite }}" class="icon-ln discord">
+           {% include modules/shades-icon.html name="discord" %}
+           Discord
+         </a>
+        </li>
+        {% endif %}
+        {%- if site.socials.pixelfed.instance and site.socials.pixelfed.username -%}
+        <li>
+         <a rel="nofollow noopener noreferrer" target="_blank" href="https://{{ site.socials.pixelfed.instance }}/{{ site.socials.pixelfed.username }}" class="icon-ln pixelfed">
+           {% include modules/shades-icon.html name="pixelfed" %}
+           Pixelfed
+         </a>
+        </li>
+        {% endif %}
+        {% if site.socials.unsplash %}
+        <li>
+         <a rel="nofollow noopener noreferrer" target="_blank" href="https://unsplash.com/{{ site.socials.unsplash }}" class="icon-ln unsplash">
+           {% include modules/shades-icon.html name="unsplash" %}
+           Unsplash
+         </a>
+        </li>
+        {% endif %}
+        {% if site.email %}
+        <li>
+         <a href="mailto://{{ site.email }}" class="icon-ln protonmail">
+           {% include modules/shades-icon.html name="mail" %}
+           Mail
+         </a>
+        </li>
+        {% endif %}
+        {%- if site.rss -%}
+        <li>
+          <a href="{{ 'feed.xml' | relative_url }}" class="icon-ln rss">
+            {% include modules/shades-icon.html name="rss" %}
+            RSS
+          </a>
+        </li>
+        {%- endif -%}
+      </ul>
+    </div>
+    <div class="h-stretch start-sm">
+      <h4 class="accent-lined">Support Me</h4>
+      <p>Want to buy me a drink/food, like what I do and want to support it, or just want to throw money at me? You can do just that here:</p>
+      <ul class="ln-list">
+        {% if site.support_options.ko-fi %}
+        <li>
+          <a rel="nofollow noopener noreferrer" target="_blank" href="https://ko-fi.com/{{ site.support_options.ko-fi }}" class="icon-ln ko-fi">
+            {% include modules/shades-icon.html name="ko-fi" %}
+            Ko-fi
+          </a>
+        </li>
+        {% endif %}
+        {% if site.support_options.patreon %}
+        <li>
+         <a rel="nofollow noopener noreferrer" target="_blank" href="https://patreon.com/{{ site.support_options.patreon }}" class="icon-ln patreon">
+           {% include modules/shades-icon.html name="patreon" %}
+           Patreon
+         </a>
+        </li>
+        {% endif %}
+        {% if site.support_options.paypal %}
+        <li>
+          <a rel="nofollow noopener noreferrer" target="_blank" href="https://paypal.me/{{ site.support_options.paypal }}" class="icon-ln paypal">
+            {% include modules/shades-icon.html name="paypal" %}
+            PayPal
+          </a>
+        </li>
+        {% endif %}
+        {% if site.support_options.squarecash %}
+        <li>
+          <a rel="nofollow noopener noreferrer" target="_blank" href="https://cash.app/${{ site.support_options.squarecash }}" class="icon-ln squarecash">
+            {% include modules/shades-icon.html name="squarecash" %}
+            Square Cash
+          </a>
+        </li>
+        {% endif %}
+        {% if site.support_options.venmo %}
+        <li>
+          <a rel="nofollow noopener noreferrer" target="_blank" href="https://venmo.com/{{ site.support_options.venmo }}" class="icon-ln venmo">
+            {% include modules/shades-icon.html name="venmo" %}
+            Venmo
+          </a>
+        </li>
+        {% endif %}
+      </ul>
+    </div>
+  </div>
+  <div class="center text-center">
+    <div><small class="fine-print">Copyright &copy; {{ site.copyright_start }} - {{ site.time | date: '%Y' }} | Micah Ilbery</small></div>
+    <a rel="nofollow noopener noreferrer" target="_blank" href="https://github.com/micahilbery/shades-icon-set/issues" class="icon-ln">
+      <small>
+        {% include modules/shades-icon.html name="bug" %}
+        Report an Issue
+      </small>
+    </a>
+  </div>
+</footer>

@@ -1,0 +1,9 @@
+main {
+  animation: load .5s ease-in;
+  display: flex;
+  flex: 1 0 auto;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: var(--content-width);
+  padding: 1rem;
+}

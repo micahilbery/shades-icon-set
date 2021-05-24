@@ -1,1 +1,68 @@
-theme: jekyll-theme-minimal
+#--------------------#
+# Jekyll config file #
+#--------------------#
+
+# Site settings
+title: Shades
+email: micah.ilbery@protonmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+  The personal website of Micah Ilbery.
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "https://micahilbery.com/shades-icon-set" # the base hostname & protocol for your site, e.g. http://example.com
+copyright_start: 2018
+
+#Theme Colors
+theme_color: "#2f3033"
+safari_pinned_tab: "#e03c9e"
+ms_tile_color: "#e03c9e"
+
+# Socialmedia usernames
+socials:
+#  codepen: micahilbery
+#  dribbble: micahilbery
+  github: micahilbery
+#  gitlab: micahilbery
+#  linkedin: micahilbery
+  mastodon:
+    instance: mastodon.social
+    username: micahilbery
+#  pixelfed:
+#    instance: pixelfed.social
+#    username: micahilbery
+  twitch: micahilbery
+  twitter: micahilbery
+#  unsplash: micahilbery
+  youtube: MicahIlbery
+
+#Discord server invite
+discord-invite: eyjkByrdpm
+
+# Gravatar Avatar Image
+gravatar_hash: eab584b2d2b890a0bc6a25c29bbcac00
+
+# Financial supports
+support_options:
+#  google-pay: micah.ilbery@gmail.com
+  ko-fi: micahilbery
+  paypal: micahilbery
+#  patreon:
+  squarecash: micahilbery01
+  venmo: micahilbery
+
+# Build settings
+sass:
+  sass_dir: _scss
+  style: compressed
+  sourcemap: always
+theme: minima
+plugins:
+- jekyll-feed
+- jekyll-sitemap
+
+kramdown:
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+      line_numbers: true
+future: false
+exclude: [README.md, Gemfile, Gemfile.lock, vendor]

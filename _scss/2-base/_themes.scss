@@ -1,0 +1,29 @@
+//===============//
+// Color-schemes //
+//===============//
+@import "theme-light";
+@import "theme-dark";
+
+:root {
+  @include get-light-scheme();
+}
+
+@include get-colors-light-scheme();
+
+@media( prefers-color-scheme: dark ) {
+  :root {
+    @include get-dark-scheme();
+  }
+
+  @include get-colors-dark-scheme();
+}
+
+.light {
+  @include get-light-scheme();
+  @include get-colors-light-scheme();
+}
+
+.dark {
+  @include get-dark-scheme();
+  @include get-colors-dark-scheme();
+}

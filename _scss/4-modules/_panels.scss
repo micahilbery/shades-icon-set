@@ -1,0 +1,26 @@
+.panel {
+  background: var(--panel-bg);
+  border: var(--border);
+  border-radius: .5rem;
+  box-shadow: var(--outset-highlight), var(--shadow);
+  color: var(--panel-txt);
+  margin: 0 auto;
+  padding: 1rem;
+  width: 100%;
+}
+
+.panel.dark {
+  @include get-dark-scheme();
+  @media( prefers-color-scheme: light ) {
+    box-shadow: var(--outset-highlight-invert), var(--shadow);
+    text-shadow: var(--inset-txt-invert);
+  }
+}
+
+.panel.light {
+  @include get-light-scheme();
+  @media( prefers-color-scheme: dark ) {
+    box-shadow: var(--outset-highlight-invert), var(--shadow);
+    text-shadow: var(--inset-txt-invert);
+  }
+}

@@ -1,0 +1,234 @@
+//=======================================================================//
+// Most styles taken from and modified from Normalize CSS                //
+// normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css //
+//=======================================================================//
+* {
+  box-sizing: border-box;
+  outline: none;
+}
+
+// Support Reduced motion. Pulled from CSS-Tricks //
+// https://css-tricks.com/revisiting-prefers-reduced-motion-the-reduced-motion-media-query/ //
+@media screen and
+  (prefers-reduced-motion: reduce), 
+  (update: slow) {
+  * {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important; // Hat tip Nick/cssremedy (https://css-tricks.com/revisiting-prefers-reduced-motion-the-reduced-motion-media-query/#comment-1700170) //
+    transition-duration: 0.001ms !important;
+  }
+}
+
+html {
+  line-height: 1.15;
+  overflow-x: hidden; // Hide horizontal scrollbar when vertical scrollbar is counted in view width.
+  -webkit-text-size-adjust: 100%;
+}
+
+article,
+body,
+footer,
+header,
+html,
+main,
+nav,
+section {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 3px;
+  border-style: none;
+}
+
+main {
+  display: block;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+hr {
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+}
+
+a {
+  background-color: transparent;
+}
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+small {
+  font-size: 80%;
+}
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+h1,
+h2,
+h3
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+abbr {
+  font-variant: none;
+  text-decoration: none;
+}
+
+abbr[title] {
+  border-bottom: none;
+  text-decoration: underline;
+  text-decoration: underline dotted;
+}
+
+// Remove inner outline from selects in firefox.
+select:-moz-focusring {
+  color: transparent;
+  text-shadow: 0 0 0 var(--txt-main);
+}
+
+// Remove the inner border and padding in Firefox.
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border: 0;
+  border-style: none;
+  padding: 0;
+}
+
+pre {
+  -webkit-text-size-adjust: none;
+}
+
+// Style regular code seperate from Jekyll syntax highlighted codeblocks.
+.highlight > code {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+}
+
+button,
+input {
+  overflow: visible;
+}
+
+button,
+select {
+  text-transform: none;
+}
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+legend {
+  color: inherit;
+  display: table;
+  max-width: 100%;
+  padding: 0;
+  white-space: normal;
+}
+
+progress {
+  vertical-align: baseline;
+}
+
+textarea {
+  overflow: auto;
+}
+
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+[type="search"] {
+  -webkit-appearance: textfield;
+  outline-offset: -2px;
+}
+
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  font: inherit;
+}
+
+details {
+  display: block;
+}
+
+summary {
+  display: list-item;
+}
+
+template {
+  display: none;
+}
+
+[hidden] {
+  display: none;
+}
+
