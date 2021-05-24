@@ -54,6 +54,11 @@ css: true
     </div>
 
     <div class="icon-container">
+      <div class="icon-preview">{% include modules/shades-icon.html name="aeropress"  %}</div>
+      <div class="icon-name">Aeropress</div>
+    </div>
+
+    <div class="icon-container">
       <div class="icon-preview">{% include modules/shades-icon.html name="airplane"  %}</div>
       <div class="icon-name">airplane</div>
     </div>
@@ -374,6 +379,11 @@ css: true
     </div>
 
     <div class="icon-container">
+      <div class="icon-preview">{% include modules/shades-icon.html name="chemex"  %}</div>
+      <div class="icon-name">Chemex</div>
+    </div>
+
+    <div class="icon-container">
       <div class="icon-preview">{% include modules/shades-icon.html name="clock"  %}</div>
       <div class="icon-name">clock</div>
     </div>
@@ -426,6 +436,11 @@ css: true
     <div class="icon-container">
       <div class="icon-preview">{% include modules/shades-icon.html name="contact-card"  %}</div>
       <div class="icon-name">contact-card</div>
+    </div>
+
+    <div class="icon-container">
+      <div class="icon-preview">{% include modules/shades-icon.html name="contrast"  %}</div>
+      <div class="icon-name">contrast</div>
     </div>
 
     <div class="icon-container">
