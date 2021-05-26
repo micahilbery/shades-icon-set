@@ -46,7 +46,7 @@ css: true
 
     <div class="icon-container">
       <div class="icon-preview">{% include modules/shades-icon.html name="aeropress"  %}</div>
-      <div class="icon-name">Aeropress</div>
+      <div class="icon-name">aeropress</div>
     </div>
 
     <div class="icon-container">
@@ -57,6 +57,11 @@ css: true
     <div class="icon-container">
       <div class="icon-preview">{% include modules/shades-icon.html name="alarm-clock"  %}</div>
       <div class="icon-name">alarm-clock</div>
+    </div>
+
+    <div class="icon-container">
+      <div class="icon-preview">{% include modules/shades-icon.html name="alcohol"  %}</div>
+      <div class="icon-name">alcohol</div>
     </div>
 
     <div class="icon-container">
@@ -371,7 +376,7 @@ css: true
 
     <div class="icon-container">
       <div class="icon-preview">{% include modules/shades-icon.html name="chemex"  %}</div>
-      <div class="icon-name">Chemex</div>
+      <div class="icon-name">chemex</div>
     </div>
 
     <div class="icon-container">
@@ -487,6 +492,11 @@ css: true
     <div class="icon-container">
       <div class="icon-preview">{% include modules/shades-icon.html name="file-text"  %}</div>
       <div class="icon-name">file-text</div>
+    </div>
+
+    <div class="icon-container">
+      <div class="icon-preview">{% include modules/shades-icon.html name="fire"  %}</div>
+      <div class="icon-name">fire</div>
     </div>
 
     <div class="icon-container">
@@ -705,6 +715,11 @@ css: true
     </div>
 
     <div class="icon-container">
+      <div class="icon-preview">{% include modules/shades-icon.html name="qr"  %}</div>
+      <div class="icon-name">qr</div>
+    </div>
+
+    <div class="icon-container">
       <div class="icon-preview">{% include modules/shades-icon.html name="question"  %}</div>
       <div class="icon-name">question</div>
     </div>
@@ -815,6 +830,11 @@ css: true
     </div>
 
     <div class="icon-container">
+      <div class="icon-preview">{% include modules/shades-icon.html name="tree"  %}</div>
+      <div class="icon-name">tree</div>
+    </div>
+
+    <div class="icon-container">
       <div class="icon-preview">{% include modules/shades-icon.html name="tv"  %}</div>
       <div class="icon-name">tv</div>
     </div>
@@ -832,6 +852,11 @@ css: true
     <div class="icon-container">
       <div class="icon-preview">{% include modules/shades-icon.html name="upload"  %}</div>
       <div class="icon-name">upload</div>
+    </div>
+
+    <div class="icon-container">
+      <div class="icon-preview">{% include modules/shades-icon.html name="usd"  %}</div>
+      <div class="icon-name">usd</div>
     </div>
 
     <div class="icon-container">
@@ -917,6 +942,11 @@ css: true
     <div class="icon-container">
       <div class="icon-preview">{% include modules/shades-icon.html name="webcam"  %}</div>
       <div class="icon-name">webcam</div>
+    </div>
+
+    <div class="icon-container">
+      <div class="icon-preview">{% include modules/shades-icon.html name="wine"  %}</div>
+      <div class="icon-name">wine</div>
     </div>
 
     <div class="icon-container">
@@ -1215,6 +1245,11 @@ css: true
     <div class="icon-container">
       <div class="icon-preview">{% include modules/shades-icon.html name="zelda"  %}</div>
       <div class="icon-name">zelda</div>
+    </div>
+
+    <div class="icon-container">
+      <div class="icon-preview">{% include modules/shades-icon.html name="zelda-ocarina"  %}</div>
+      <div class="icon-name">zelda-ocarina</div>
     </div>
   </div>
 
