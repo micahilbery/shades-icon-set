@@ -1128,6 +1128,11 @@ css: true
     </div>
 
     <div class="icon-container">
+      <div class="icon-preview">{% include modules/shades-icon.html name="koi-coffee"  %}</div>
+      <div class="icon-name">koi-coffee</div>
+    </div>
+
+    <div class="icon-container">
       <div class="icon-preview">{% include modules/shades-icon.html name="linkedin"  %}</div>
       <div class="icon-name">linkedin</div>
     </div>
@@ -1195,6 +1200,11 @@ css: true
     <div class="icon-container">
       <div class="icon-preview">{% include modules/shades-icon.html name="squarecash"  %}</div>
       <div class="icon-name">squarecash</div>
+    </div>
+
+    <div class="icon-container">
+      <div class="icon-preview">{% include modules/shades-icon.html name="tiktok"  %}</div>
+      <div class="icon-name">tiktok</div>
     </div>
 
     <div class="icon-container">
