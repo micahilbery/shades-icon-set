@@ -545,7 +545,7 @@ css: true
     </div>
 
     <div class="icon-container">
-      <div class="icon-preview">{% include modules/shades-icon.html name="getmail"  %}</div>
+      <div class="icon-preview">{% include modules/shades-icon.html name="get-mail"  %}</div>
       <div class="icon-name">get-mail</div>
     </div>
 
