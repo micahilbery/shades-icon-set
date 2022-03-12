@@ -140,6 +140,11 @@ css: true
     </div>
 
     <div class="icon-container">
+      <div class="icon-preview">{% include modules/shades-icon.html name="all-mail"  %}</div>
+      <div class="icon-name">all-mail</div>
+    </div>
+
+    <div class="icon-container">
       <div class="icon-preview">{% include modules/shades-icon.html name="anchor"  %}</div>
       <div class="icon-name">anchor</div>
     </div>
@@ -167,6 +172,26 @@ css: true
     <div class="icon-container">
       <div class="icon-preview">{% include modules/shades-icon.html name="arrow-o-up"  %}</div>
       <div class="icon-name">arrow-o-up</div>
+    </div>
+
+    <div class="icon-container">
+      <div class="icon-preview">{% include modules/shades-icon.html name="arrow-down"  %}</div>
+      <div class="icon-name">arrow-down</div>
+    </div>
+
+    <div class="icon-container">
+      <div class="icon-preview">{% include modules/shades-icon.html name="arrow-left"  %}</div>
+      <div class="icon-name">arrow-left</div>
+    </div>
+
+    <div class="icon-container">
+      <div class="icon-preview">{% include modules/shades-icon.html name="arrow-right"  %}</div>
+      <div class="icon-name">arrow-right</div>
+    </div>
+
+    <div class="icon-container">
+      <div class="icon-preview">{% include modules/shades-icon.html name="arrow-up"  %}</div>
+      <div class="icon-name">arrow-up</div>
     </div>
 
     <div class="icon-container">
@@ -500,13 +525,28 @@ css: true
     </div>
 
     <div class="icon-container">
+      <div class="icon-preview">{% include modules/shades-icon.html name="flag"  %}</div>
+      <div class="icon-name">flag</div>
+    </div>
+
+    <div class="icon-container">
       <div class="icon-preview">{% include modules/shades-icon.html name="folder"  %}</div>
       <div class="icon-name">folder</div>
     </div>
 
     <div class="icon-container">
+      <div class="icon-preview">{% include modules/shades-icon.html name="forward"  %}</div>
+      <div class="icon-name">forward</div>
+    </div>
+
+    <div class="icon-container">
       <div class="icon-preview">{% include modules/shades-icon.html name="gallery"  %}</div>
       <div class="icon-name">gallery</div>
+    </div>
+
+    <div class="icon-container">
+      <div class="icon-preview">{% include modules/shades-icon.html name="getmail"  %}</div>
+      <div class="icon-name">get-mail</div>
     </div>
 
     <div class="icon-container">
@@ -567,6 +607,11 @@ css: true
     <div class="icon-container">
       <div class="icon-preview">{% include modules/shades-icon.html name="image"  %}</div>
       <div class="icon-name">image</div>
+    </div>
+
+    <div class="icon-container">
+      <div class="icon-preview">{% include modules/shades-icon.html name="inbox"  %}</div>
+      <div class="icon-name">inbox</div>
     </div>
 
     <div class="icon-container">
@@ -665,6 +710,11 @@ css: true
     </div>
 
     <div class="icon-container">
+      <div class="icon-preview">{% include modules/shades-icon.html name="outbox"  %}</div>
+      <div class="icon-name">outbox</div>
+    </div>
+
+    <div class="icon-container">
       <div class="icon-preview">{% include modules/shades-icon.html name="paste"  %}</div>
       <div class="icon-name">paste</div>
     </div>
@@ -732,6 +782,16 @@ css: true
     <div class="icon-container">
       <div class="icon-preview">{% include modules/shades-icon.html name="radio-unchecked"  %}</div>
       <div class="icon-name">radio-unchecked</div>
+    </div>
+
+    <div class="icon-container">
+      <div class="icon-preview">{% include modules/shades-icon.html name="reply"  %}</div>
+      <div class="icon-name">reply</div>
+    </div>
+
+    <div class="icon-container">
+      <div class="icon-preview">{% include modules/shades-icon.html name="reply-all"  %}</div>
+      <div class="icon-name">reply-all</div>
     </div>
 
     <div class="icon-container">
